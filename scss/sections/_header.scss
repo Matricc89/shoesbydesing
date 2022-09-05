@@ -1,0 +1,63 @@
+/*Barra de navegacion & Header*/
+
+
+.sideHeader {
+
+    /*background-color: rgb(247, 93, 126);*/
+    background-image: $bg-primary;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+
+}
+
+.sideHeader ul {
+    text-align: center;
+    list-style: none;
+
+}
+
+.sideHeader li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    background-color: $btn-one;
+    border-radius: 20px;
+    padding: 12px;
+    position: relative;
+    font-weight: bold;
+}
+.sideHeader ul li:hover{
+    background-color: $btn-two ;
+    font-weight: bolder;
+}
+.sideHeader ul ul{
+    position: absolute;
+    padding-top: 18px;
+    display: none;
+}
+.sideHeader ul ul li{
+    display: block;
+}
+.sideHeader ul li:hover ul{
+    
+    
+    display: block;
+}
+
+.sideHeader a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,67 @@
+/*Medias queris*/
+
+@media(max-width:915px){
+    .sideHeader{
+        flex-direction: column;
+
+    }
+   
+    .sideHeader ul li{
+        font-size: 12px;
+        margin: 0;
+        padding: 6px;
+        border-radius: 3px;
+    }
+    
+    .sideHeader ul li:hover ul{
+    
+    
+        display: none;
+    }
+    .sideheader-cont{
+        padding-top: 2px;
+       
+    }
+    .nav-cont{
+        text-align: center;
+        padding-top: 6px;
+        
+    }
+    .nav-cont ul li{
+        padding: 4px;
+        
+    }
+    .nav-cont ul{
+        margin-right: 21px;
+    }
+    .nos-main{
+        height: 100%;
+    }
+    main{
+        background-image: $bg-img;
+    }
+    .logo{
+        height: 100px;
+        width: 100px;
+    }
+    .logo-footer{
+        display: none;
+    }
+    footer h3{
+        display: none;
+    }
+    .art-main{
+        margin: 15px;
+    }
+    .about2{
+        display: none;
+    }
+}
+@media(max-width:508px){
+    .nav-cont .contacto{
+        display: none;
+    }
+    .nav-cont .nosotros{
+        display: none;
+    }
+}

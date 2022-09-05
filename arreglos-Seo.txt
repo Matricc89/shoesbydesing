@@ -1,0 +1,5 @@
+Se hicieron estos arreglos:
+
+1> Se agregaron las h1 a todos los HTML.
+2> Se ajustaron todas las Img.
+3> Se agregaron las etiquetas Meta para SEO.

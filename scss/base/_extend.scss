@@ -1,0 +1,22 @@
+//Extend
+%colours-pages{
+    
+    background-color: $bg-footer;
+    background-color: $bg-primary;
+}
+%colours-btm{
+    background-color: $btn-enviar;
+    background-color: $btn-one;
+    background-color: $btn-two;
+}
+%main-style{
+    background-image: $bg-img;
+    background-size: $bg-size;
+    height: $main-height;
+    width: $main-width;
+}
+//Mixin
+
+@mixin cuerpo-page {
+    @extend %main-style;
+}
