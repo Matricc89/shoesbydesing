@@ -15,9 +15,9 @@ main h2{
 }
 .section1 h1 {
     text-align: center;
-    text-decoration: underline;
-    font-style:italic;
-    font-size: 50px;
+    font-weight: bold;
+    font-style:normal;
+    font-size: 45px;
     
 }
 .section1 .section2 button{
@@ -62,7 +62,7 @@ main h2{
 }
 .section2 div p{
     text-align: justify;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 
@@ -103,8 +103,11 @@ main h2{
 .mainProd h1{
     text-align: center;
     padding: 30px;
-    text-decoration: underline;
     font-size: 40px;
+}
+.mainProd div p{
+    text-align: justify;
+    font-size: 14px;
 }
 
 

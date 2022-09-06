@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,900;1,300&family=Roboto+Slab:wght@200;400;900&display=swap");
 main {
   background-image: url(../images/bodi2.jpg);
   background-size: cover;
@@ -9,7 +10,7 @@ main {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif; }
+  font-family: 'Poppins', sans-serif; }
 
 /*Barra de navegacion & Header*/
 .sideHeader {
@@ -72,9 +73,9 @@ main h2 {
 
 .section1 h1 {
   text-align: center;
-  text-decoration: underline;
-  font-style: italic;
-  font-size: 50px; }
+  font-weight: bold;
+  font-style: normal;
+  font-size: 45px; }
 
 .section1 .section2 button {
   background-color: rgba(0, 255, 255, 0.952);
@@ -111,7 +112,7 @@ main h2 {
 
 .section2 div p {
   text-align: justify;
-  font-size: 17px; }
+  font-size: 14px; }
 
 /* Estilos Main Productos*/
 .mainProd article {
@@ -143,8 +144,11 @@ main h2 {
 .mainProd h1 {
   text-align: center;
   padding: 30px;
-  text-decoration: underline;
   font-size: 40px; }
+
+.mainProd div p {
+  text-align: justify;
+  font-size: 14px; }
 
 /* Main Nosotros*/
 .nos-main {
