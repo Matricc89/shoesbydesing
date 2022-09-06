@@ -11,13 +11,17 @@ main h2{
     padding: 30px;
     font-style:italic;
     font-size: 50px;
-    text-decoration: underline;
+    text-decoration: solid;
 }
 .section1 h1 {
     text-align: center;
-    text-decoration: underline;
-    font-style:italic;
+    text-decoration:solid;
+    font-weight: bolder;
     font-size: 50px;
+    background: linear-gradient(to left, rgb(196, 0, 75),rgb(167, 56, 80), rgb(0, 109, 91));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     
 }
 .section1 .section2 button{
@@ -31,7 +35,7 @@ main h2{
 
 }
 .section1 button a{
-    color: aliceblue;
+    color: rgb(51, 41, 41);
     text-decoration: none;
     font-weight: bolder;
 }
@@ -83,8 +87,6 @@ main h2{
 }
 .mainProd button{
     background-color:   rgba(0, 255, 255, 0.952);
-    
-    
     margin-top: 10px;
     margin-bottom: 35px;
     padding: 5px;
@@ -100,11 +102,21 @@ main h2{
     border-radius: 20px;
 }
 
-.mainProd h1{
+.mainProd h1 {
+    text-align: center;
+    text-decoration:solid;
+    font-weight: bolder;
+    font-size: 50px;
+    background: linear-gradient(to left, rgb(196, 0, 75),rgb(167, 56, 80), rgb(0, 109, 91));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mainProd h2{
     text-align: center;
     padding: 30px;
-    text-decoration: underline;
     font-size: 40px;
+    font-weight: bold;
 }
 
 
@@ -133,11 +145,14 @@ main h2{
     text-align: center;
 }
 .about h1{
-    text-decoration: underline;
-    font-size: 35px;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    font-weight:bolder;
+    text-align: center;
+    text-decoration:solid;
+    font-weight: bolder;
+    font-size: 40px;
+    background: linear-gradient(to left, rgb(247, 65, 105),rgb(247, 93, 126), rgb(6, 199, 167));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .about p{
     font-size: 20px;

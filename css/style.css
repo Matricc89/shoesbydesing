@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,900;1,300&family=Roboto+Slab:wght@200;400;900&display=swap");
 main {
   background-image: url(../images/bodi2.jpg);
   background-size: cover;
@@ -9,7 +10,7 @@ main {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif; }
+  font-family: 'Poppins', sans-serif; }
 
 /*Barra de navegacion & Header*/
 .sideHeader {
@@ -37,7 +38,7 @@ main {
   display: inline-block;
   list-style: none;
   margin: 0 20px;
-  background-color: rgba(0, 255, 255, 0.952);
+  background-color: rgba(84, 233, 213, 0.952);
   border-radius: 20px;
   padding: 12px;
   position: relative;
@@ -59,7 +60,7 @@ main {
   display: block; }
 
 .sideHeader a {
-  color: white;
+  color: #332929;
   text-decoration: none; }
 
 /* Main Home */
@@ -68,22 +69,26 @@ main h2 {
   padding: 30px;
   font-style: italic;
   font-size: 50px;
-  text-decoration: underline; }
+  text-decoration: solid; }
 
 .section1 h1 {
   text-align: center;
-  text-decoration: underline;
-  font-style: italic;
-  font-size: 50px; }
+  text-decoration: solid;
+  font-weight: bolder;
+  font-size: 50px;
+  background: linear-gradient(to left, #c4004b, #a73850, #006d5b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 .section1 .section2 button {
-  background-color: rgba(0, 255, 255, 0.952);
+  background-color: rgba(84, 233, 213, 0.952);
   margin-top: 10px;
   padding: 5px;
   border-radius: 5px; }
 
 .section1 button a {
-  color: aliceblue;
+  color: #332929;
   text-decoration: none;
   font-weight: bolder; }
 
@@ -142,9 +147,19 @@ main h2 {
 
 .mainProd h1 {
   text-align: center;
+  text-decoration: solid;
+  font-weight: bolder;
+  font-size: 50px;
+  background: linear-gradient(to left, #c4004b, #a73850, #006d5b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.mainProd h2 {
+  text-align: center;
   padding: 30px;
-  text-decoration: underline;
-  font-size: 40px; }
+  font-size: 40px;
+  font-weight: bold; }
 
 /* Main Nosotros*/
 .nos-main {
@@ -167,11 +182,14 @@ main h2 {
   text-align: center; }
 
 .about h1 {
-  text-decoration: underline;
-  font-size: 35px;
-  margin-bottom: 10px;
-  padding-top: 10px;
-  font-weight: bolder; }
+  text-align: center;
+  text-decoration: solid;
+  font-weight: bolder;
+  font-size: 40px;
+  background: linear-gradient(to left, #f74169, #f75d7e, #06c7a7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 .about p {
   font-size: 20px;
