@@ -234,7 +234,15 @@ footer ul a img {
   margin-top: 15px; }
 
 .sideFooter1 h3 {
-  text-decoration: underline; }
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.17em; }
+
+footer h3 {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.17em;
+  padding-top: 3px; }
 
 .sideFooter2 ul li {
   padding: 5px;
