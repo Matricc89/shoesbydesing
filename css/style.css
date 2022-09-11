@@ -60,7 +60,7 @@ main {
   display: block; }
 
 .sideHeader a {
-  color: rgba(255, 255, 255, 0.884);
+  color: rgba(56, 56, 56, 0.884);
   text-decoration: none; }
 
 /* Main Home */
@@ -84,7 +84,7 @@ main h2 {
   border-radius: 5px; }
 
 .section1 button a {
-  color: aliceblue;
+  color: #010a13;
   text-decoration: none;
   font-weight: bolder; }
 
@@ -133,7 +133,7 @@ main h2 {
   border-radius: 5px; }
 
 .mainProd button a {
-  color: aliceblue;
+  color: #010a13;
   text-decoration: none;
   font-weight: bolder;
   font-size: 15px; }
@@ -240,9 +240,9 @@ footer ul a img {
 
 footer h3 {
   font-weight: bold;
-  text-decoration: underline;
   font-size: 1.17em;
-  padding-top: 3px; }
+  padding-top: 3px;
+  color: white; }
 
 .sideFooter2 ul li {
   padding: 5px;
