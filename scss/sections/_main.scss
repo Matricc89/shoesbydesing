@@ -1,13 +1,10 @@
 /*Main global*/
 
 main {
-    background-image: $bg-img;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+   @include cuerpo-page;
 }
 
-
+%main-style
 main h2 {
     text-align: center;
     padding: 30px;
@@ -67,12 +64,13 @@ main h1 {
     width: 600px;
     margin-bottom: 25px;
     margin-left: 20px;
+    border-color: $btn-one;
 }
 
 .home2 button:hover {
     background: $btn-two;
     transition: .5s;
-
+    border-color: $btn-two;
 
 }
 
@@ -108,12 +106,14 @@ main h1 {
     border-radius: 25px;
     width: 100px;
     margin-bottom: 25px;
+    border-color: $btn-one;
 
 }
 
 .home3 button:hover {
     background: $btn-two;
     transition: .5s;
+    border-color: $btn-two;
 
 
 }
@@ -138,13 +138,14 @@ main h1 {
     width: 100px;
     padding: 5px;
     border-radius: 25px;
+    border-color: $btn-one;
 
 }
 
 .section1 .section2 button:hover {
     background: $btn-two;
     transition: .5s;
-
+    border-color: $btn-two;
 
 }
 
@@ -219,6 +220,7 @@ main h1 {
     width: 100px;
     margin-bottom: 25px;
     margin-top: 25px;
+    border-color: $btn-one;
 
 }
 
@@ -227,11 +229,13 @@ main h1 {
     font-size: 16px;
     font-weight: bold;
     padding-top: 25px;
+    
 }
 
 .mainOutlet button:hover {
     background: $btn-two;
     transition: .5s;
+    border-color:$btn-two;
 
 
 }

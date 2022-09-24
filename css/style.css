@@ -1,6 +1,12 @@
 @charset "UTF-8";
-/*fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,900;1,300&family=Roboto+Slab:wght@200;400;900&display=swap");
+main {
+  background-image: url(../img/bodi2.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%; }
+
+/*fonts*/
 /*Reseteo*/
 * {
   padding: 0;
@@ -73,13 +79,7 @@ header li a:hover {
   display: none; }
 
 /*Main global*/
-main {
-  background-image: url(../img/bodi2.jpg);
-  background-size: cover;
-  height: 100%;
-  width: 100%; }
-
-main h2 {
+main main h2 {
   text-align: center;
   padding: 30px;
   font-style: italic;
@@ -126,11 +126,13 @@ main h1 {
   border-radius: 25px;
   width: 600px;
   margin-bottom: 25px;
-  margin-left: 20px; }
+  margin-left: 20px;
+  border-color: rgba(0, 255, 255, 0.952); }
 
 .home2 button:hover {
   background: rgba(247, 176, 117, 0.877);
-  transition: .5s; }
+  transition: .5s;
+  border-color: rgba(247, 176, 117, 0.877); }
 
 .home2 button a {
   color: black;
@@ -160,11 +162,13 @@ main h1 {
   background-color: rgba(0, 255, 255, 0.952);
   border-radius: 25px;
   width: 100px;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  border-color: rgba(0, 255, 255, 0.952); }
 
 .home3 button:hover {
   background: rgba(247, 176, 117, 0.877);
-  transition: .5s; }
+  transition: .5s;
+  border-color: rgba(247, 176, 117, 0.877); }
 
 .home3 button a {
   color: black;
@@ -178,11 +182,13 @@ main h1 {
   margin-top: 10px;
   width: 100px;
   padding: 5px;
-  border-radius: 25px; }
+  border-radius: 25px;
+  border-color: rgba(0, 255, 255, 0.952); }
 
 .section1 .section2 button:hover {
   background: rgba(247, 176, 117, 0.877);
-  transition: .5s; }
+  transition: .5s;
+  border-color: rgba(247, 176, 117, 0.877); }
 
 .section1 button a {
   color: black;
@@ -242,7 +248,8 @@ main h1 {
   border-radius: 20px;
   width: 100px;
   margin-bottom: 25px;
-  margin-top: 25px; }
+  margin-top: 25px;
+  border-color: rgba(0, 255, 255, 0.952); }
 
 .mainOutlet button a {
   color: black;
@@ -252,7 +259,8 @@ main h1 {
 
 .mainOutlet button:hover {
   background: rgba(247, 176, 117, 0.877);
-  transition: .5s; }
+  transition: .5s;
+  border-color: rgba(247, 176, 117, 0.877); }
 
 .mainOutlet article img {
   border-radius: 20px; }
