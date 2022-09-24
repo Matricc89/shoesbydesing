@@ -162,8 +162,13 @@ main h1 {
   background-color: rgba(0, 255, 255, 0.952);
   border-radius: 25px;
   width: 100px;
+  margin-left: 100px;
   margin-bottom: 25px;
   border-color: rgba(0, 255, 255, 0.952); }
+
+.home3 h3 {
+  margin-left: 25px;
+  margin-bottom: 10px; }
 
 .home3 button:hover {
   background: rgba(247, 176, 117, 0.877);
