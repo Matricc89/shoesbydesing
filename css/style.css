@@ -56,7 +56,7 @@ header nav ul li a {
 
 header li a.active,
 header li a:hover {
-  background: aqua;
+  background: rgba(0, 255, 255, 0.952);
   color: black;
   transition: .5s; }
 

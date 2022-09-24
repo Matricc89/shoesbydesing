@@ -5,7 +5,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: rgba(247, 176, 117, 0.877);
+    background: $btn-two;
     border-radius: 50px;
 }
 
@@ -13,7 +13,7 @@ body::-webkit-scrollbar-thumb {
 header {
     position: sticky;
     top: 0;
-    background-image: linear-gradient(to right, rgb(247, 93, 126), rgba(247, 176, 117, 0.877));
+    background-image: $bg-primary;
     height: 160px;
 }
 
@@ -54,7 +54,7 @@ header nav ul li a {
 
 header li a.active,
 header li a:hover {
-    background: aqua;
+    background: $btn-one;
     color: black;
     transition: .5s;
 

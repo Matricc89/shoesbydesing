@@ -1,7 +1,7 @@
 /*Main global*/
 
 main {
-    background-image: url(../img/bodi2.jpg);
+    background-image: $bg-img;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -62,7 +62,7 @@ main h1 {
 
 .home2 button {
 
-    background-color: rgba(0, 255, 255, 0.952);
+    background-color: $btn-one;
     border-radius: 25px;
     width: 600px;
     margin-bottom: 25px;
@@ -70,7 +70,7 @@ main h1 {
 }
 
 .home2 button:hover {
-    background: rgba(247, 176, 117, 0.877);
+    background: $btn-two;
     transition: .5s;
 
 
@@ -104,7 +104,7 @@ main h1 {
 }
 
 .home3 button {
-    background-color: rgba(0, 255, 255, 0.952);
+    background-color: $btn-one;
     border-radius: 25px;
     width: 100px;
     margin-bottom: 25px;
@@ -112,7 +112,7 @@ main h1 {
 }
 
 .home3 button:hover {
-    background: rgba(247, 176, 117, 0.877);
+    background: $btn-two;
     transition: .5s;
 
 
@@ -133,7 +133,7 @@ main h1 {
 /*Main Productos*/
 .section1 .section2 button {
 
-    background-color: rgba(0, 255, 255, 0.952);
+    background-color: $btn-one;
     margin-top: 10px;
     width: 100px;
     padding: 5px;
@@ -142,7 +142,7 @@ main h1 {
 }
 
 .section1 .section2 button:hover {
-    background: rgba(247, 176, 117, 0.877);
+    background: $btn-two;
     transition: .5s;
 
 
@@ -214,7 +214,7 @@ main h1 {
 }
 
 .mainOutlet button {
-    background-color: rgba(0, 255, 255, 0.952);
+    background-color: $btn-one;
     border-radius: 20px;
     width: 100px;
     margin-bottom: 25px;
@@ -230,7 +230,7 @@ main h1 {
 }
 
 .mainOutlet button:hover {
-    background: rgba(247, 176, 117, 0.877);
+    background: $btn-two;
     transition: .5s;
 
 
@@ -317,18 +317,18 @@ main h1 {
 }
 
 .btn {
-    background-color: rgba(0, 255, 255, 0.952);
+    background-color: $btn-one;
     color: black;
     font-size: 16px;
     font-weight: bold;
     padding: 5px;
-    border-color: rgba(0, 255, 255, 0.952);
+    border-color: $btn-one;
 
 }
 
 .btn:hover {
-    background: rgba(247, 176, 117, 0.877);
+    background: $btn-two;
     transition: .5s;
     color: black;
-    border-color: rgba(247, 176, 117, 0.877);
+    border-color: $btn-two;
 }
