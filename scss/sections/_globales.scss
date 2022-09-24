@@ -1,14 +1,14 @@
-//fonts
+/*fonts*/
 
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,900;1,300&family=Roboto+Slab:wght@200;400;900&display=swap');
 
 /*Reseteo*/
 
-
 * {
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    list-style: none;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }

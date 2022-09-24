@@ -1,8 +1,7 @@
-/* Pie de pagina */
+/*Footer*/
 
-
-footer{
-    background-color: $bg-footer;
+footer {
+    background-color: rgb(247, 93, 126);
     height: 200px;
     display: flex;
     flex-direction: row;
@@ -12,34 +11,38 @@ footer{
     align-items: center;
 }
 
-footer li{
+footer li {
     color: black;
     list-style: none;
 }
 
 
-footer ul a{
+footer ul a {
     color: black;
     text-decoration: none;
-    
+
 }
-footer ul a img{
+
+footer ul a img {
     padding-left: 20px;
     padding-top: 15px;
     margin-top: 15px;
 }
-.sideFooter1 h3{
+
+.sideFooter1 h3 {
     font-weight: bold;
     text-decoration: underline;
     font-size: 1.17em;
 }
-footer h3{
+
+footer h3 {
     font-weight: bold;
     font-size: 1.17em;
     padding-top: 3px;
     color: white;
 }
-.sideFooter2 ul li{
+
+.sideFooter2 ul li {
     padding: 5px;
     text-decoration: underline;
 }

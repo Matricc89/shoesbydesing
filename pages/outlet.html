@@ -5,160 +5,181 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Link Favicon -->
-    <link rel="icon" href="../favicon/logo.ico">
-    <!-- Link Css -->
+    <!-- Link | Font-awesome -->
+    <script src="https://kit.fontawesome.com/926c03c1c9.js" crossorigin="anonymous"></script>
+    <!-- Estilos | CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- keywords -->
     <meta name="keywords" content="Shoesbydesing, descuento, botas, borcegos, sandalias">
     <!-- description -->
-    <meta name="description" content="Shoesbydesing te trae todos los productos con grandes descuentos. Enterate las novedades">
+    <meta name="description"
+        content="Shoesbydesing te trae todos los productos con grandes descuentos. Enterate las novedades">
+    <!-- Link Favicon -->
+    <link rel="icon" href="../favicon/logo.ico">
     <title>Outlet</title>
 </head>
 
 <body>
-    <!-- Header Outlet -->
-    <header class="sideHeader">
-        <!--Logo-->
-        <a href="../index.html">
-            <img src="../images/logo redondo.png" alt="logo" class="logo">
-        </a>
-        <!-- Barra de navegacion -->
+    <!-- Menu Inicio -->
+
+    <header>
         <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <a href="../index.html" class="enlace">
+                <img src="../img/logo redondo.png" alt="logo" class="logo">
+            </a>
             <ul>
-
-                <li>
-                    <a href="../index.html">HOME</a>
-                </li>
-                <!--barra de navegacion-->
-                <li>
-                    <a href="productos.html">PRODUCTOS</a>
-                    <ul>
-                        <li><a href="./productos.html">Botas</a></li>
-                        <li><a href="./productos.html">Texanas</a></li>
-                    </ul>
-
-                </li>
-
-                <li>
-                    <a href="outlet.html">OUTLET</a>
-                </li>
-
-                <li>
-                    <a href="nosotros.html">NOSOTROS</a>
-                </li>
-
-                <li>
-                    <a href="contacto.html">CONTACTO</a>
-                </li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a class="active" href="./outlet.html">Outlet</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <!--Main Outlet-->
-    <main>
-        <section class="section1">
-            <h1>Productos seleccionados al 50%</h1>
-            <br><br>
-            <article class="section2">
-                <div>
-                    <img src="../images/zapa1.jpg" alt="zapa1">
-                    <h3>Marin</h3>
-                    <p>Borcego confeccionado 100% Cuero Vacuno.<br>
-                        Plantilla entera para mayor confort.<br>
-                        Forro vacuno y base artesanal. <br>
-                    </p>
-                    <div>
-                        <button type="submit" name="submit"><a href="./contacto.html">Dejanos tu consulta</a></button>
-                    </div>
-                </div>
-                <div>
-                    <img src="../images/zapa2jpg.jpg" alt="zapa2">
-                    <h3>Isabella</h3>
-                    <p>Borcego confeccionado 100% Cuero Vacuno.<br>
-                        Plantilla entera para mayor confort.<br>
-                        Forro vacuno y base TR. <br>
-                    </p>
-                    <div>
-                        <button type="submit" name="submit"><a href="./contacto.html">Dejanos tu consulta</a></button>
-                    </div>
-                </div>
-                <div>
-                    <img src="../images/zapa3.jpg" alt="zapa3">
-                    <h3>Lair</h3>
-                    <p>
-                        Borcego confeccionado 100% Cuero Vacuno.<br>
-                        Plantilla entera para mayor confort.<br>
-                        Forro vacuno y base artesanal. <br>
-                    </p>
-                    <div>
-                        <button type="submit" name="submit"><a href="./contacto.html">Dejanos tu consulta</a></button>
-                    </div>
-                </div>
-            </article>
-            <h2>Productos con 30% de Descuento</h2>
-            <article class="section2">
-                <div>
-                    <img src="../images/outlet3.jpg" alt="zapa1">
-                    <h3>Marin</h3>
-                    <p>Borcego confeccionado 100% Cuero Vacuno.<br>
-                        Plantilla entera para mayor confort.<br>
-                        Forro vacuno y base artesanal. <br>
-                    </p>
-                    <div>
-                        <button type="submit" name="submit"><a href="./contacto.html">Dejanos tu consulta</a></button>
-                    </div>
-                </div>
-                <div>
-                    <img src="../images/outlet1.jpg" alt="zapa2">
-                    <h3>Isabella</h3>
-                    <p>Borcego confeccionado 100% Cuero Vacuno.<br>
-                        Plantilla entera para mayor confort.<br>
-                        Forro vacuno y base TR. <br>
-                    </p>
-                    <div>
-                        <button type="submit" name="submit"><a href="./contacto.html">Dejanos tu consulta</a></button>
-                    </div>
-                </div>
-                <div>
-                    <img src="../images/outlet2.jpg" alt="zapa3">
-                    <h3>Lair</h3>
-                    <p>
-                        Borcego confeccionado 100% Cuero Vacuno.<br>
-                        Plantilla entera para mayor confort.<br>
-                        Forro vacuno y base artesanal. <br>
-                    </p>
-                    <div>
-                        <button type="submit" name="submit"><a href="./contacto.html">Dejanos tu consulta</a></button>
-                    </div>
-                </div>
-             
-            </article>
+    <!-- Main Productos -->
+    <main class="mainOutlet">
 
-        </section>
+        <article>
+            <div class="bannerOut"><img src="../img/banneroutlet.jpg" alt="banneroutlet"></div>
+            <h1> Botas seleccionadas</h1>
 
-
+            <div>
+                <!--  -->
+                <img src="../img/outlet1.jpg" alt="zapa1">
+                <h3>Marin</h3>
+                <p>Bota 100% confeccionada en Cuero.<br>
+                    Plantilla entera para mayor confort.<br>
+                    Forro vacuno y base artesanal. <br>
+                </p>
+                <div>
+                    <button type="submit" name="submit"><a href="./contacto.html">Mas info</a></button>
+                </div>
+            </div>
+            <div>
+                <img src="../img/botas2.jpg" alt="zapa2">
+                <h3>Isabella</h3>
+                <p>Bota 100% confeccionada en Cuero.<br>
+                    Plantilla entera para mayor confort.<br>
+                    Forro vacuno y base TR. <br>
+                </p>
+                <div>
+                    <button type="submit" name="submit"><a href="./contacto.html">Mas info</a></button>
+                </div>
+            </div>
+            <div>
+                <img src="../img/outlet2.jpg" alt="zapa2">
+                <h3>Lair</h3>
+                <p>
+                    Bota 100% confeccionada en Cuero.<br>
+                    Plantilla entera para mayor confort.<br>
+                    Forro vacuno y base artesanal. <br>
+                </p>
+                <div>
+                    <button type="submit" name="submit"><a href="./contacto.html">Mas info</a></button>
+                </div>
+            </div>
+        </article>
+        <h2>Borcegos seleccionados</h2>
+        <article>
+            <div>
+                <img src="../img/301.jpg" alt="zapa1">
+                <h3>Marin</h3>
+                <p>Borcego confeccionado 100% Cuero.<br>
+                    Plantilla entera para mayor confort.<br>
+                    Forro vacuno y base artesanal. <br>
+                </p>
+                <div>
+                    <button type="submit" name="submit"><a href="./contacto.html">Mas info</a></button>
+                </div>
+            </div>
+            <div>
+                <!--  -->
+                <img src="../img/303.jpg" alt="zapa3">
+                <h3>Isabella</h3>
+                <p>Borcego confeccionado 100% Cuero.<br>
+                    Plantilla entera para mayor confort.<br>
+                    Forro vacuno y base TR. <br>
+                </p>
+                <div>
+                    <button type="submit" name="submit"><a href="./contacto.html">Mas info</a></button>
+                </div>
+            </div>
+            <div>
+                <img src="../img/302.jpg" alt="zapa3">
+                <h3>Lair</h3>
+                <p>
+                    Borcego confeccionado 100% Cuero.<br>
+                    Plantilla entera para mayor confort.<br>
+                    Forro vacuno y base artesanal. <br>
+                </p>
+                <div>
+                    <button type="submit" name="submit"><a href="./contacto.html">Mas info</a></button>
+                </div>
+            </div>
+        </article>
+        <h2>Texanas seleccionadas</h2>
+        <article>
+            <div>
+                <img src="../img/texana1.jpg" alt="zapa1">
+                <h3>Marin</h3>
+                <p>Texana 100% confeccionada en Cuero.<br>
+                    Plantilla entera para mayor confort.<br>
+                    Forro vacuno y base artesanal. <br>
+                </p>
+                <div>
+                    <button type="submit" name="submit"><a href="./contacto.html">Mas info</a></button>
+                </div>
+            </div>
+            <div>
+                <img src="../img/texana2.jpg" alt="zapa2">
+                <h3>Isabella</h3>
+                <p>Texana 100% confeccionada en Cuero.<br>
+                    Plantilla entera para mayor confort.<br>
+                    Forro vacuno y base TR. <br>
+                </p>
+                <div>
+                    <button type="submit" name="submit"><a href="./contacto.html">Mas info</a></button>
+                </div>
+            </div>
+            <div>
+                <img src="../img/texana3.jpg" alt="zapa3">
+                <h3>Lair</h3>
+                <p>
+                    Texana 100% confeccionada en Cuero.<br>
+                    Plantilla entera para mayor confort.<br>
+                    Forro vacuno y base artesanal. <br>
+                </p>
+                <div>
+                    <button type="submit" name="submit"><a href="./contacto.html">Mas info</a></button>
+                </div>
+            </div>
+        </article>
     </main>
 
-    <!--Pie de Pagina-->
+
+    <!-- Pie de pagina -->
 
     <footer>
-
         <nav class="sideFooter1">
 
             <ul>
                 <li>
-                    <a href="#" class="logo">
-
-                        <img src="https://www.buenosaires.gob.ar/sites/gcaba/files/facebook_0.png" alt="Facebook">
-
+                    <a href="#" class="">
+                        <!--las imagenes las saque de una maqueta que hice del gobierno de la ciudad-->
+                        <img src="https://www.buenosaires.gob.ar/sites/gcaba/files/facebook_0.png" alt="">
+                        <!--https://maqueta-gcba-matiasricci.netlify.app-->
                         <p>Facebook</p>
                     </a>
 
                 </li>
                 <li>
                     <a href="#">
-                        <img src="https://www.buenosaires.gob.ar/sites/gcaba/files/instagram_0.png" alt="Instagram">
+                        <img src="https://www.buenosaires.gob.ar/sites/gcaba/files/instagram_0.png" alt="">
                         <p>Instagram</p>
                     </a>
 
@@ -166,7 +187,7 @@
             </ul>
         </nav>
         <div>
-            <img src="../images/logo redondo.png" alt="Logo" class="logo-footer">
+            <img src="../img/logo redondo.png" alt="Logo" class="logo-footer">
             <h3>Shoes By Desing</h3>
         </div>
         <nav class="sideFooter2">
@@ -185,12 +206,7 @@
                 </li>
             </ul>
         </nav>
-
-
-
     </footer>
-
-
 </body>
 
 </html>

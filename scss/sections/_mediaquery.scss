@@ -1,68 +1,120 @@
-/*Medias queris*/
+/* Media Pantallas pequeñas*/
 
-@media(max-width:915px){
-    .sideHeader{
-        flex-direction: column;
-
-    }
-   
-    .sideHeader ul li{
-        font-size: 12px;
-        margin: 0;
-        padding: 6px;
-        border-radius: 3px;
-    }
-    
-    .sideHeader ul li:hover ul{
-    
-    
-        display: none;
-    }
-    .sideheader-cont{
-        padding-top: 2px;
-       
+@media (max-width: 2561px) {
+    .enlace {
+        padding-left: 35px;
     }
 
-    .nav-cont{
+    header nav ul li a {
+        font-size: 16px;
+    }
+
+    .logo-footer {
+        display: block;
+    }
+
+    footer h3 {
+        display: block;
+    }
+
+    main h1 {
         text-align: center;
-        padding-top: 6px;
-        
+        width: 100%;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 45px;
+
     }
-    .nav-cont ul li{
-        padding: 4px;
-        
+
+    .mobi {
+        display: block;
     }
-    .nav-cont ul{
-        margin-right: 21px;
-    }
-    .nos-main{
-        height: 100%;
-    }
-    main{
-        background-image: $bg-img;
-    }
-    .logo{
-        height: 100px;
-        width: 100px;
-    }
-    .logo-footer{
-        display: none;
-    }
-    footer h3{
-        display: none;
-    }
-    .art-main{
-        margin: 15px;
-    }
-    .about2{
-        display: none;
-    }
+
+
+
 }
-@media(max-width:508px){
-    .nav-cont .contacto{
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    header ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(to right, rgb(247, 93, 126), rgba(247, 176, 117, 0.877));
+        top: 158px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+
+
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    header li a:hover,
+    header li a.active {
+        background: none;
+        color: rgb(45, 193, 204);
+    }
+
+    #check:checked~ul {
+        left: 0;
+
+    }
+
+    .logo-footer {
         display: none;
     }
-    .nav-cont .nosotros{
+
+    footer h3 {
         display: none;
+    }
+
+    main h1 {
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 30px;
+
+    }
+    .aside{
+        display: none;
+    }
+    
+
+}
+
+@media (max-width: 1006px) {
+    .banner {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 631px) {
+    .banner {
+        display: block;
+    }
+
+    .home2 {
+        display: none;
+    }
+    .banner img {
+        border-radius: 20px;
+        margin-bottom: 0;
     }
 }

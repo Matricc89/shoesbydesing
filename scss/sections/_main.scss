@@ -1,42 +1,161 @@
-/* Main Home */
+/*Main global*/
 
-
-main{
-    
-    @include cuerpo-page;
+main {
+    background-image: url(../img/bodi2.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
-main h2{
+
+main h2 {
     text-align: center;
     padding: 30px;
-    font-style:italic;
+    font-style: italic;
     font-size: 50px;
     text-decoration: underline;
 }
-.section1 h1 {
+
+main h1 {
     text-align: center;
     font-weight: bold;
-    font-style:normal;
-    font-size: 45px;
-    
+    font-style: normal;
+    font-size: 55px;
 }
-.section1 .section2 button{
-    
-    background-color:   $btn-one;
-    
-    
-    margin-top: 10px;
-    padding: 5px;
-    border-radius: 5px;
+
+/*Main Inicio*/
+
+.home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.home h1 {
+    font-size: 55px;
+    text-decoration: underline;
 
 }
-.section1 button a{
-    color: rgb(1, 10, 19);
-    text-decoration: none;
-    font-weight: bolder;
+
+.home h3 {
+    margin-left: 20px;
 }
-.section2 button{
-    
+
+.banner img {
+    border-radius: 20px;
+    margin-bottom: 150px;
+}
+
+.home2 img {
+
+    margin-bottom: 10px;
+    margin-left: 15px;
+    box-sizing: 1px;
+    border-radius: 25px;
+    padding: 0;
+    -webkit-box-shadow: 0px 5px 26px 8px rgba(211, 47, 252, 0.66);
+    -moz-box-shadow: 0px 8px 26px 8px rgba(254, 28, 243, 0.66);
+    box-shadow: 0px 5px 26px 8px rgba(227, 11, 216, 0.66);
+}
+
+.home2 button {
+
+    background-color: rgba(0, 255, 255, 0.952);
+    border-radius: 25px;
+    width: 600px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.home2 button:hover {
+    background: rgba(247, 176, 117, 0.877);
+    transition: .5s;
+
+
+}
+
+.home2 button a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.home3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.home3 img {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    box-sizing: 1px;
+    border-radius: 25px;
+    padding: 0;
+    -webkit-box-shadow: 0px 5px 26px 8px rgba(211, 47, 252, 0.66);
+    -moz-box-shadow: 0px 8px 26px 8px rgba(254, 28, 243, 0.66);
+    box-shadow: 0px 5px 26px 8px rgba(227, 11, 216, 0.66);
+}
+
+.home3 button {
+    background-color: rgba(0, 255, 255, 0.952);
+    border-radius: 25px;
+    width: 100px;
+    margin-bottom: 25px;
+
+}
+
+.home3 button:hover {
+    background: rgba(247, 176, 117, 0.877);
+    transition: .5s;
+
+
+}
+
+.home3 button a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+/*Main Productos*/
+.section1 .section2 button {
+
+    background-color: rgba(0, 255, 255, 0.952);
+    margin-top: 10px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 25px;
+
+}
+
+.section1 .section2 button:hover {
+    background: rgba(247, 176, 117, 0.877);
+    transition: .5s;
+
+
+}
+
+.section1 button a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.section2 button {
+
     margin-bottom: 35px;
 }
 
@@ -54,23 +173,22 @@ main h2{
 .section2 img {
     border-radius: 20px;
 }
-.section2 div h3{
+
+.section2 div h3 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 28px;
 }
-.section2 div p{
+
+.section2 div p {
     text-align: justify;
     font-size: 14px;
 }
 
+/*Main Outlet*/
 
-/* Estilos Main Productos*/
-
-
-.mainProd article{
-    
+.mainOutlet article {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -79,88 +197,109 @@ main h2{
     align-items: center;
     padding-bottom: 25px;
     padding-top: 25p;
-    
 }
-.mainProd button{
-    background-color:   rgba(0, 255, 255, 0.952);
-    
-    
+
+.mainOutlet h1 {
+    text-decoration: underline;
     margin-top: 10px;
-    margin-bottom: 35px;
-    padding: 5px;
-    border-radius: 5px;
+    margin-bottom: 15px;
 }
-.mainProd button a{
-    color: rgb(1, 10, 19);
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 15px;
+
+.mainOutlet h2 {
+    font-size: 34px;
 }
-.mainProd img{
+
+.mainOutlet .bannerOut img {
+    width: 100%;
+}
+
+.mainOutlet button {
+    background-color: rgba(0, 255, 255, 0.952);
+    border-radius: 20px;
+    width: 100px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+.mainOutlet button a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.mainOutlet button:hover {
+    background: rgba(247, 176, 117, 0.877);
+    transition: .5s;
+
+
+}
+
+.mainOutlet article img {
     border-radius: 20px;
 }
 
-.mainProd h1{
-    text-align: center;
-    padding: 30px;
-    font-size: 40px;
-}
-.mainProd div p{
-    text-align: justify;
-    font-size: 14px;
+/*Main Nosotros*/
+.mainNos {
+    height: 600px;
 }
 
+.grid-container {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1.3fr 3.9fr 3.9fr 1.3fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        ". section aside .";
+}
 
-
-/* Main Nosotros*/
-
-.nos-main{
-    width: 100%;
-    height:600px;
+.aside {
+    grid-area: aside;
     
 }
-.about2 img{
-    height: 380px;
-    width: 600px;
-    
+.aside img{
+    border-radius: 200px;
+    padding-top: 10px;
 }
-.about{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-around
+
+
+
+.section {
+    grid-area: section;
+    width: 300px;
+    margin-left: 5px;
 }
-.about div{
-    width: 350px;
-    text-align: center;
-}
-.about h1{
+
+.section h1 {
     text-decoration: underline;
     font-size: 35px;
     margin-bottom: 10px;
     padding-top: 10px;
-    font-weight:bolder;
+    font-weight: bolder;
 }
-.about p{
+
+.section p {
     font-size: 19px;
     font-weight: bolder;
-    //font-family: sans-serif;
 }
 
 
 /* Main Formulario Contacto*/
 
-.main-cont{
+.main-cont {
     width: auto;
     height: 100%;
 }
 
-.mainForm h1{
+.main-cont h1 {
     text-align: center;
     text-decoration: underline;
+
 }
-.form1{
+
+.row {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -168,17 +307,28 @@ main h2{
     justify-content: space-around;
     align-items: center;
     font-size: 20px;
-  
-    
+
+
 }
-.form1 label{
+
+.form1 label {
     text-decoration: underline;
     font-size: 25px;
 }
-.enviar{
-    background-color: $btn-enviar;
-    color: rgb(209, 219, 228);
-    padding: 5px;
-    border-color: rgb(194, 194, 231);
 
+.btn {
+    background-color: rgba(0, 255, 255, 0.952);
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    border-color: rgba(0, 255, 255, 0.952);
+
+}
+
+.btn:hover {
+    background: rgba(247, 176, 117, 0.877);
+    transition: .5s;
+    color: black;
+    border-color: rgba(247, 176, 117, 0.877);
 }
