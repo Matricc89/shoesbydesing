@@ -144,6 +144,7 @@ main h1 {
     padding: 5px;
     border-radius: 25px;
     border-color: $btn-one;
+    margin-left: 100px;
 
 }
 
@@ -190,9 +191,9 @@ main h1 {
     font-size: 28px;
 }
 
-.section2 div p {
-    text-align: justify;
-    font-size: 14px;
+.section1 div p {
+    font-size: 16px;
+    margin-left: 3px;
 }
 
 /*Main Outlet*/
@@ -217,6 +218,10 @@ main h1 {
 .mainOutlet h2 {
     font-size: 34px;
 }
+.mainOutlet h3{
+    text-decoration: underline;
+    font-size: 25px;
+}
 
 .mainOutlet .bannerOut img {
     width: 100%;
@@ -229,6 +234,7 @@ main h1 {
     margin-bottom: 25px;
     margin-top: 25px;
     border-color: $btn-one;
+    margin-left: 100px;
 
 }
 
