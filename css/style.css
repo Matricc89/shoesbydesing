@@ -359,8 +359,13 @@ footer ul a {
   color: black;
   text-decoration: none; }
 
-footer ul a img {
-  padding-left: 20px;
+.sideFooter1 ul .facebook img {
+  padding-left: 35px;
+  padding-top: 15px;
+  margin-top: 15px; }
+
+.sideFooter1 ul .instagram img {
+  padding-left: 25px;
   padding-top: 15px;
   margin-top: 15px; }
 
