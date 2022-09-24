@@ -285,7 +285,8 @@ main h1 {
 
 .aside img {
   border-radius: 200px;
-  padding-top: 10px; }
+  padding-top: 10px;
+  margin-left: 50px; }
 
 .section {
   grid-area: section;
