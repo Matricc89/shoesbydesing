@@ -79,7 +79,7 @@ header li a:hover {
   display: none; }
 
 /*Main global*/
-main main h2 {
+main h2 {
   text-align: center;
   padding: 30px;
   font-style: italic;
