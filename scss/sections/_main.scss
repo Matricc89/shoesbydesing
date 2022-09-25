@@ -215,9 +215,11 @@ main h1 {
     margin-bottom: 15px;
 }
 
+
 .mainOutlet h2 {
     font-size: 34px;
 }
+
 .mainOutlet h3{
     text-decoration: underline;
     font-size: 25px;
@@ -250,13 +252,18 @@ main h1 {
     background: $btn-two;
     transition: .5s;
     border-color:$btn-two;
-
+    transform: scale(1.2);
+    transition: .7s;
 
 }
 
 .mainOutlet article img {
     border-radius: 20px;
+    -webkit-box-shadow: 0px 5px 26px 8px rgba(241, 155, 24, 0.89);
+    -moz-box-shadow: 0px 8px 26px 8px rgba(15, 1, 15, 0.781);
+    box-shadow: 0px 5px 26px 8px rgba(36, 17, 35, 0.66);
 }
+
 
 /*Main Nosotros*/
 .mainNos {
